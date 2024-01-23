@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT Bhilai Campus Pharmacy - User Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        #login-container img{
+            height: 40px;
+        }
+
+        h1 {
+            color: #8a2be2;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #8a2be2;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 300px;
+        }
+
+        button:hover {
+            background-color: #9400d3;
+        }
+
+        .forgot-password {
+            color: #333;
+            text-decoration: underline;
+            cursor: pointer;
+            margin-top: 10px;
+            display: block;
+        }
+        .username{
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            gap: 10px;
+        }
+        .email{
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            gap: 20px;
+        }
+        #login-container .edem{
+            float: right;
+        }
+        i{
+            margin-left: 10px;
+        }
+        .edus a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/3bbb4ed110.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="login-container">
+        <img src="./photos/Screenshot 2024-01-19 at 11.25.36 PM.png" alt="IIT Bhilai Logo" id="iit-logo" width="200" height="200">
+        <h1>DevZery Users</h1>
+        <div class="username">
+        <h2>Username : Nikhil</h2>   
+        </div>
+        <div class="email">
+        <h2>Email : Nikhil@gmail.com</h2>
+        </div>
+        <div class="edus">
+            <button class="edit-username"><a href="edit.html">Edit Username/Email</a><i class="fa-solid fa-pencil"></i></button></div>
+        <a href="#" class="forgot-password">Registered Users</a>
+        <a href="login.html" class="logout">Logout</a>
+
+    </div>
+
+</body>
+</html>
